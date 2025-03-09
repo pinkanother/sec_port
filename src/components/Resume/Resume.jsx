@@ -18,12 +18,12 @@ const Resume = () => {
   ];
   const internships = [
     {
-      company: "Self-employed",
+      company: "Self-Employed",
       duration: "Oct 2024 - present",
       location: "Montreal, Canada",
       responsibilities: [
-        "Designed, developed, and deployed smart contracts on blockchain platforms like Ethereum, Binance Smart Chain, or Hyperledger.",
-        "I have been focusing on building responsive and dynamic web pages using React.js, Html css, Next.js, Angular.js..."
+        "Spearheaded the development of a feature-rich analytics platform, integrating HTML5, CSS3, and React, boosting customer insights by 35 %.",
+        "I have focused on developing scalable web applications using modern JavaScript frameworks, achieving a 30 % improvement in system performance."
       ],
     },
     {
@@ -31,18 +31,24 @@ const Resume = () => {
       duration: "May 2022 - Sep 2024",
       location: "Toronto, Canada",
       responsibilities: [
-        "Led multiple projects from concept to completion, ensuring timel delivery and alignment with client goals.",
-        "Engineered a comprehensive cloud backup system featuring a multi-step sign-up process and asynchronous backend services using React.js and Next.js, resulting in a 40% increase in user engagement.",
-        "Implemented both MongoDB and PostgreSQL to enhance data management efficiency, leading to a 25% improvement in data retrieval times.",
+        "Led multiple projects from concept to completion, ensuring timely delivery and alignment with client goals.",
+        "Enhanced a MongoDB, Express.js, React, and Node.js (MERN)-based ecommerce system, optimizing the checkout process by 20%, resulting in a 15% higher conversion rate and contributing to over $2 million in annual revenue.",
+        "Optimized web applications with Tailwind CSS, achieving full mobile responsiveness and improving user satisfaction scores by 35 %.",
+        "Developed a scalable data storage system using React, Node.js, and Express.js, optimizing retrieval times by 50 % and improving efficiency for 500,000+ active users.",
+        "Implemented both MongoDB and PostgreSQL to enhance data management efficiency, leading to a 25 % improvement in data retrieval times.",
       ],
     },
     {
       company: "Many Hats",
-      duration: "August 2019 - April 2022",
+      duration: "August 2018 - April 2022",
       location: "Burnaby, Canada",
       responsibilities: [
-        "Developed innovative front-end applications, focusing on delivering exceptional user experiences while meeting business objectives.",
-        "Utilized HTML, CSS, JavaScript, jQuery, React, Next.js, Angular, WordPress, and Laravel to develop dynamic and responsive web applications.",
+        "Developed and deployed 5+ scalable web applications with React, Node.js, and MongoDB, improving system efficiency and supporting 100,000 + users.",
+        "Contributed to the development of a customer support chatbot utilizing AI technologies, enhancing response times by 40 %.",
+        "Designed and implemented 15+ RESTful APIs with Node.js and PostgreSQL, reducing data retrieval time by 30 % and improving backend performance.",
+        "Reduced website load times by 40%, leading to a 25% increase in user retention, through lazy loading, code splitting, and image optimization.",
+        "Designed and maintained a blockchain-based real estate platform usingNext.js and TypeScript, increasing site speed by 40 % and boosting user engagement.",
+        "Developed blockchain-based authentication solutions, improving security and decentralization, reducing unauthorized access by 60 %.",
       ],
     },
   ];
@@ -78,14 +84,14 @@ const Resume = () => {
             <div className="resume-item pb-0">
               <h4>James Zheng</h4>
               <p className="justify">
-              I am a Senior Full-stack developer with 6 years of rich experience in
-              building scalable and high-performance web applications. Skilled in React,
-              Next.js, Svelte,Vue.js, Angular, Node.js, and GraphQL. Strong expertise in
-              data integration and optimized database management, maximizing data
-              processing speed with MongoDB, MySQL, and PostgreSQL. Proficient in
-              Python, AWS and best practices such as TDD and Agile(SCRUM).
-              I am adept at building secure, scalable, and innovative blockchain
-              applications across diverse ecosystems.
+                I am a Senior Full-stack developer with 7 years of rich experience in
+                building scalable and high-performance web applications. Skilled in React,
+                Next.js, Svelte,Vue.js, Angular, Node.js, and GraphQL. Strong expertise in
+                data integration and optimized database management, maximizing data
+                processing speed with MongoDB, MySQL, and PostgreSQL. Proficient in
+                Python, AWS and best practices such as TDD and Agile(SCRUM).
+                I am adept at building secure, scalable, and innovative blockchain
+                applications across diverse ecosystems.
               </p>
               <ul>
                 {contactInfo.map((contact, index) => (

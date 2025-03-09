@@ -55,15 +55,13 @@ const Navbar = () => {
   return (
     <header
       id="header"
-      className={`header dark-background d-flex flex-column ${
-        isHeaderVisible ? "header-show" : ""
-      }`}
+      className={`header dark-background d-flex flex-column ${isHeaderVisible ? "header-show" : ""
+        }`}
       ref={headerRef}
     >
       <i
-        className={`header-toggle d-xl-none bi ${
-          isHeaderVisible ? "bi-x" : "bi-list"
-        }`}
+        className={`header-toggle d-xl-none bi ${isHeaderVisible ? "bi-x" : "bi-list"
+          }`}
         onClick={toggleHeader}
       ></i>
       <div className="profile-img">
