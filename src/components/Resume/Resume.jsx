@@ -18,12 +18,16 @@ const Resume = () => {
   ];
   const internships = [
     {
-      company: "Self-Employed",
+      company: "Datarockets",
       duration: "Oct 2024 - present",
-      location: "Montreal, Canada",
+      location: "Toronto, Canada",
       responsibilities: [
-        "Spearheaded the development of a feature-rich analytics platform, integrating HTML5, CSS3, and React, boosting customer insights by 35 %.",
-        "I have focused on developing scalable web applications using modern JavaScript frameworks, achieving a 30 % improvement in system performance."
+        "Collaborated with a cross-functional team including UX/UI designers and product managers to optimize user interfaces, resulting in a 35% increase in user engagement and improved customer retention.",
+        "Developed and maintained multiple full-stack web applications using technologies such as React, Node.js, Express, MongoDB, and GraphQL, enhancing performance and reducing load times by 30%.",
+        "Designed and implemented dynamic backend services, ensuring the integration of third-party APIs and payment gateways, which reduced the time to complete transactions by 25%.",
+        "Identified and resolved bottlenecks in code execution and database queries, improving overall system responsiveness and achieving a 40% reduction in server costs through optimized architecture.",
+        "Led troubleshooting sessions and debugging processes, overcoming security vulnerabilities and ensuring zero downtime during deployment, which helped maintain 100% uptime for users.",
+        "Collaborated on testing and QA efforts, resulting in the identification of critical bugs before production, reducing post-launch issues by 50% and ensuring smoother user experiences.",
       ],
     },
     {
@@ -36,6 +40,7 @@ const Resume = () => {
         "Optimized web applications with Tailwind CSS, achieving full mobile responsiveness and improving user satisfaction scores by 35 %.",
         "Developed a scalable data storage system using React, Node.js, and Express.js, optimizing retrieval times by 50 % and improving efficiency for 500,000+ active users.",
         "Implemented both MongoDB and PostgreSQL to enhance data management efficiency, leading to a 25 % improvement in data retrieval times.",
+        "Spearheaded the development of a feature-rich analytics platform, integrating HTML5,CSS3, and React, boosting customer insights by 35%.",
       ],
     },
     {
